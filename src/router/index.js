@@ -30,7 +30,7 @@ const routes = [
 
 //路由实例化
 const router = new Router({
-    mode:'hash',
+    mode:'history',
     routes
 });
 
