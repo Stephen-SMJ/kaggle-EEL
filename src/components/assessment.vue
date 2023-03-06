@@ -76,7 +76,7 @@
                 let data_reader = new FormData();
                 data_reader.append("text",text);
                 console.log(data_reader)
-                axios.post('http://47.104.128.125:5000/language_predict',data_reader).then((res)=>{
+                axios.post('https://pdf.xuyijie.icu/ell',data_reader).then((res)=>{
                     console.log("res:",res);
                     var data = res.data;
                     this.final = data["final"];
